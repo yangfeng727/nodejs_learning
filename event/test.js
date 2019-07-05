@@ -17,7 +17,12 @@ eventEmitter.addListener('connection', listner1);
 // bind the connection event with the listner2 function
 eventEmitter.on('connection', listner2);
 
-var eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
+
+// 特别注意
+// events.EventEmitter.listenerCount(emitter, eventName) //已废弃，不推荐
+// events.emitter.listenerCount(eventName) //推荐
+
+var eventListeners = eventEmitter.listenerCount('connection');
 console.log(eventListeners + " Listner(s) listening to connection event");
 
 // fire the connection event
@@ -30,7 +35,7 @@ console.log("Listner1 will not listen now.");
 // fire the connection event
 eventEmitter.emit('connection');
 
-eventListeners = require('events').EventEmitter.listenerCount(eventEmitter,'connection');
+eventListeners = eventEmitter.listenerCount('connection');
 console.log(eventListeners + " Listner(s) listening to connection event");
 
 console.log("Program Ended.");
