@@ -1,0 +1,13 @@
+{
+  "name": "message",
+  "version": "1.0.0",
+  "description": "留言板案例，根据视频学习，全局安装nodemon模块自动重启",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}

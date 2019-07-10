@@ -1,0 +1,18 @@
+.wap-box{
+    margin:40px 40px;
+}
+.msg-wrap{
+    margin-top:10px;
+}
+.msg-wrap li{
+    border:1px solid #ccc;
+    border-style: none solid solid solid;
+    padding:5px 5px;
+    color: #262673;
+}
+.msg-wrap li:first-child{
+    border-top:1px solid #ccc;
+}
+.msg-wrap li span:last-child{
+    float: right;
+}

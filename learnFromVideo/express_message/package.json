@@ -1,0 +1,17 @@
+{
+  "name": "express_message",
+  "version": "1.0.0",
+  "description": "使用express框架实现之前的留言板案例",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.17.1",
+    "express-art-template": "^1.0.1",
+    "moment": "^2.24.0"
+  }
+}
