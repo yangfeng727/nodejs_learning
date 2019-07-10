@@ -1,0 +1,26 @@
+.form-wrap{
+
+}
+.form-wrap form{
+    text-align: center;
+    margin:120px auto;
+    background: aliceblue;
+    /*text-align: center;*/
+    width:320px;
+    padding:10px;
+    padding-left:50px;
+    box-sizing: border-box;
+}
+.form-wrap form p{
+    padding:20px 10px;
+    text-align: left;
+}
+.form-wrap form input{
+    width:180px;
+    height:30px;
+}
+.form-wrap form textarea{
+    vertical-align: top;
+    height: 100px;
+    width: 180px;
+}

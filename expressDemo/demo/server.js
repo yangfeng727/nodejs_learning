@@ -8,8 +8,8 @@ var multer = require('multer'); // node.js 中间件，用于处理 enctype="mul
 var cookieParser = require('cookie-parser')
 var util = require('util');
 app.use(cookieParser())
-
-app.use('/public', express.static('public'));
+// 为了能够直接访问静态资源，如 http://127.0.0.1:8081/public/images/logo.png
+app.use('/public', express.static('public')); //Express 提供了内置的中间件 express.static 来设置静态文件如：图片， CSS, JavaScript 等。
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(multer({dest: '/tmp/'}).array('image'));
 
@@ -24,7 +24,6 @@ app.get('/index.htm', function (req, res) {
 
 // get提交
 app.get('/process_get', function (req, res) {
-
     // 输出 JSON 格式
     var response = {
         "first_name": req.query.first_name,
@@ -68,8 +67,8 @@ app.post('/file_upload', function (req, res) {
                 };
             }
             console.log(response);
-            res.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});
-            res.end(JSON.stringify(response)+'<img src=\''+uploadPath+req.files[0].originalname+'\' />');
+            res.writeHead(200, {'Content-Type': 'text/html;charset=utf-8'}); // 如果保存路径存在中文字符，直接输出会产生保存路径中文部分乱码的问题，需要在此语句之前声明头，后可正常输出中文字符：
+            res.end(JSON.stringify(response) + '<img src=\'' + uploadPath + req.files[0].originalname + '\' />');
         });
     });
 })
