@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+.common-btn{
+    padding:5px 10px;
+    cursor: pointer;
+    color:#ffffff;
+    background: #00B7FF;
+    border:1px solid #cccccc;
+    border-radius: 3px;
+}
+.common-btn:hover{
+    background: #08a0ff;
+}
+.common-btn a{
+    color:#ffffff;
+    text-decoration: none;
+}

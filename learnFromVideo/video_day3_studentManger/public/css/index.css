@@ -1,0 +1,30 @@
+.wap-box{
+    margin:40px 40px;
+}
+.msg-wrap{
+    margin-top:10px;
+}
+.msg-wrap li{
+    border:1px solid #ccc;
+    border-style: none solid solid solid;
+    padding:5px 5px;
+    color: #262673;
+}
+.msg-wrap li:first-child{
+    border-top:1px solid #ccc;
+}
+.msg-wrap li span:last-child{
+    float: right;
+}
+
+table{
+    margin:50px auto;
+    table-layout: fixed;
+    word-break: break-all;
+    border-collapse: collapse;
+    text-align: center;
+}
+table td,th{
+    padding:5px 10px;
+    border:1px solid #ccc;
+}

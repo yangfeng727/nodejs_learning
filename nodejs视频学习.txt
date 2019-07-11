@@ -1,0 +1,17 @@
+npm config list 查看npm安装目录
+
+npm -g 全局安装后模块可以在命令行使用
+
+npm i --production 只安装线上环境的包，即不安装devdependencies里面的模块
+
+npm config get registry  // 查看npm当前镜像源
+
+npm config set registry https://registry.npmjs.org
+
+npm adduser --registry http://XXXXXX // 设置账号密码
+
+
+// 将自己的代码发布到npm
+1.在https://www.npmjs.com/ 官网注册npm
+2.npm login 登陆进去
+3.npm publish发布

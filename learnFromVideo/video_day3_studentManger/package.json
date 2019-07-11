@@ -1,0 +1,19 @@
+{
+  "name": "video_day3",
+  "version": "1.0.0",
+  "description": "视频学习第三天，express中间件学习，学生管理案例实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "hot": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.17.1",
+    "express-art-template": "^1.0.1",
+    "moment": "^2.24.0"
+  }
+}

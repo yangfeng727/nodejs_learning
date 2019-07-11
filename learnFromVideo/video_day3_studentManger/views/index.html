@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学生列表页</title>
+    <link href="../public/css/common.css" rel="stylesheet">
+    <link href="../public/css/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="wap-box">
+    <h1>学生列表(从文件中获取的数据)</h1>
+    <!--<button class="common-btn" onclick="window.open('/add','_self')">发表留言</button>-->
+    <table>
+        <thead>
+        <th>id</th><th>姓名</th><th>密码</th><th>年龄</th><th>性别</th><th>添加时间</th><th>操作</th>
+        </thead>
+        <tbody>
+        {{each studentList item index}}
+        <tr>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.pwd}}</td>
+            <td>{{item.age}}</td>
+            <td>{{item.sex}}</td>
+            <td>{{item.createAt}}</td>
+            <td>
+                <a href=/stu/detail?id={{item.id}}>详情</a>
+                <a href="">修改</a>
+                <a href="/stu/delete?id={{item.id}}">删除</a>
+            </td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+    <button class="common-btn" onclick="window.open('/stu/create','_self')">新增学生</button>
+</div>
+</body>
+</html>
