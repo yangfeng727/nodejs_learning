@@ -8,8 +8,11 @@ var express = require('express')
 var url = require('url') // 解析地址栏参数
 var moment = require('moment') // 时间模块
 
+var bodyParser = require('body-parser');// post提交需要使用的 node.js 中间件，用于处理 JSON, Raw, Text 和 URL 编码的数据。
+
 // 创建web服务器
 var app = express()
+app.use(bodyParser.urlencoded({extended: false}));
 // 配置模板引擎（ps:使用render方法必须）
 app.engine('html', require('express-art-template'))
 // 在express中
@@ -40,6 +43,22 @@ app.get('/addMsg', function (req, res) {
     })
     res.redirect('/') // 跳转
 })
+
+// post提交 需要使用bodyParser中间件
+app.post('/addMsg', function (req, res) {
+    // 输出 JSON 格式
+    var response = {
+        "name": req.body.name,
+        "content": req.body.content
+    };
+    var date = moment().format('YYYY/MM/D h:mm:ss')
+    dataBase.push({
+        ...response,
+        createAt: date
+    })
+    res.redirect('/') // 跳转
+})
+
 app.listen(8080, function () {
     console.log('服务启动成功，访问：http://localhost:8080')
 })
