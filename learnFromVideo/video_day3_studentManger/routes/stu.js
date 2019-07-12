@@ -112,8 +112,8 @@ router.post('/create', function (req, res) {
 })
 
 
-// 学生详情页
-router.use('/detail', function (req, res) {
+// 学生详情页    next：若要继续往下匹配则必须执行next()
+router.use('/detail', function (req, res, next) {
     var id = req.query.id // 获取参数
     stuModel.findById(id, function (err, data) {
         if (err) res.status(500).send('server Error.')
@@ -124,7 +124,7 @@ router.use('/detail', function (req, res) {
 })
 
 // 删除当前学生信息
-router.use('/delete', function (req, res) {
+router.use('/delete', function (req, res, next) {
     var id = req.query.id // 获取参数
     stuModel.deleteById(id, function (err) {
         if (err) res.status(500).send('server Error.')
