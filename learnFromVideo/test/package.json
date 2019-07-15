@@ -1,0 +1,20 @@
+{
+  "name": "video_day3",
+  "version": "1.0.0",
+  "description": "视频学习小案例测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "hot": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template": "^4.13.2",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-art-template": "^1.0.1",
+    "express-session": "^1.16.2"
+  }
+}
