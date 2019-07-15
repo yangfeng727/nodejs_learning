@@ -15,3 +15,6 @@ npm adduser --registry http://XXXXXX // 设置账号密码
 1.在https://www.npmjs.com/ 官网注册npm
 2.npm login 登陆进去
 3.npm publish发布
+
+md5？
+序列化？

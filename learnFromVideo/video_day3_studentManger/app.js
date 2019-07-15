@@ -4,11 +4,15 @@ var bodyParser = require('body-parser');// 解析post请求数据 post提交需�
 var app = express()
 app.engine('html', require('express-art-template'))
 app.use('/public', express.static('public'))
+app.use('/node_modules', express.static('node_modules'))
 
 app.use(bodyParser.json());// 解析文本格式数据（application/json）  解析后放到req对象的body属性中
 app.use(bodyParser.urlencoded({extended: false})); // 解析文本格式数据（application/x-www-form-urlencoded）
 // 路由
 
+// 登陆
+var loginRouter = require('./routes/login')
+app.use('/login', loginRouter)
 // 学生管理路由
 var stuRouter = require('./routes/stu')
 app.use('/stu', stuRouter)

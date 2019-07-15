@@ -13,18 +13,20 @@
 <div class="form-wrap">
     <form action="/stu/create" method="post">
         <p>
-            <label for="name">姓名：<input class="text" name="name" id="name"/></label>
+            <label for="name"><span>姓名：</span><input class="text" name="name" id="name"/></label>
         </p>
         <p>
-            <label for="pwd">密码：<input class="text" name="pwd" id="pwd"/></label>
+            <label for="pwd"><span>密码：</span><input class="text" name="pwd" id="pwd"/></label>
         </p>
         <p>
-            <label for="age">年龄：<input class="text" name="age" id="age"/></label>
+            <label for="age"><span>年龄：</span><input class="text" name="age" id="age"/></label>
         </p>
         <p>
-            性别：
-            <label for="sexMan"><input type="radio" name="sex" checked id="sexMan" value="男"/>男</label>
-            <label for="sexWoman"><input type="radio" name="sex" id="sexWoman" value="女"/>女</label>
+            <label>
+                <span>性别：</span>
+                <label for="sexMan"><input type="radio" name="sex" checked id="sexMan" value="男"/>男</label>
+                <label for="sexWoman"><input type="radio" name="sex" id="sexWoman" value="女"/>女</label>
+            </label>
         </p>
         <button class="common-btn" type="submit">提交</button> <a href="/stu">返回首页</a>
     </form>
