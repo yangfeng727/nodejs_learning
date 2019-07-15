@@ -1,62 +1,7 @@
-// var moment = require('moment') // 时间模块
-// // 管理 学生路由
-// module.exports=function (app,fs) {
-//     // 》页面跳转《
-// // 学生列表
-//     app.get('/stu', function (req, res) {
-//
-//         // 获取学生列表数据
-//         fs.readFile('./db.json', 'utf8', function (err, data) {
-//             // 判断
-//             if (err) res.send('server Error.')
-//             // console.log(data.stus, 444) // 特别注意：从文件获取过来是字符串
-//             // 渲染
-//             res.render('index.html', {
-//                 studentList: JSON.parse(data).stus
-//             })
-//         })
-//     })
-//
-// // 学生添加页
-//     app.get('/stu/create', function (req, res) {
-//         res.render('post.html')
-//     })
-//
-// // 》接口处理《
-// // 添加学生
-//     app.post('/stu/create', function (req, res) {
-//         // res.render('post.html')
-//         console.log(req.body) // { name: '', pwd: '', age: '', sex: '女' }
-//         // 1.接受数据
-//         var stuOne = req.body
-//         // 2.过滤数据
-//
-//         // 3.入库 获取数据库数据，压入新数据（因为是操作文件增加复杂度，如果是数据库则直接插入）
-//         fs.readFile('./db.json', 'utf8', function (err, data) {
-//             // 判断
-//             if (err) res.send('server Error.')
-//             // 3.1获取原有数据
-//             var stus = JSON.parse(data).stus
-//
-//             // 3.2处理新数据
-//             stuOne.createAt = moment().format('YYYY/MM/D h:mm:ss')
-//             stuOne.id = stus[stus.length - 1].id + 1 // 难点
-//             // 3.3压入新数据
-//             stus.push(stuOne)
-//             // 3.4 写入数据 {注意：写入json文件时，不能直接写对象，需要先转换为字符串再写入}
-//             fs.writeFile('./db.json', JSON.stringify({stus}), function (err) {
-//                 if (err) res.send('server Error.')
-//                 // 3.5判断跳转
-//                 res.redirect('/stu')
-//             })
-//         })
-//     })
-//
-// }
-
 var express = require('express')
 var fs = require('fs')
 var md5 = require('md5')
+var moment = require('moment') // 时间模块
 var router = express.Router() // express的路由方式
 
 var baseFilePath = './db.json'
@@ -108,11 +53,24 @@ router.post('/reg', function (req, res, next) {
         // 2.获取参数
         var postData = req.body
         var stus = JSON.parse(data).stus
-
+        //  3.判断存在
+        var stu = stus.find(item => item.name === postData.name)
+        if (stu) return res.status(200).json({resultCod: 1, msg: '用户已存在'})
+        //  4.组装数据
+        stus.push({
+            "id": stus[stus.length - 1].id + 1,
+            "name": postData.name,
+            "pwd": md5(postData.pwd),
+            "age": "",
+            "sex": "",
+            "createAt": moment().format('YYYY/MM/D h:mm:ss')
+        })
+        //  5.写入数据
+        fs.writeFile(baseFilePath, JSON.stringify({stus: stus}), function (err) {
+            if (err) return next(err)
+            return res.status(200).json({resultCod: 0, msg: '注册成功'})
+        })
     })
-    //  3.判断存在
-    //  4.组装数据
-    //  5.写入数据
 })
 
 // 统一错误处理

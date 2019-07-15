@@ -1,5 +1,9 @@
-.form-wrap {
-
+.form-wrap h1{
+text-align: center;
+}
+.form-wrap h1 a{
+    font-size:16px;
+    font-weight: normal;
 }
 
 .form-wrap form {

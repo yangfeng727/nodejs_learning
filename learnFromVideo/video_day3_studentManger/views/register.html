@@ -9,6 +9,7 @@
 <body>
 <div class="form-wrap">
     <form action="" method="post" id="registerForm">
+        <h1>注册<a href="/login">返回登陆</a></h1>
         <p>
             <label for="name"><span>用户名：</span><input class="text" name="name" id="name"/></label>
         </p>
@@ -29,14 +30,14 @@
             var formData = $(this).serialize()
             $.ajax({
                 type: "POST",
-                url: "/login",
+                url: "/login/reg",
                 data: formData,
                 dataType: "json",
                 success: function (result) {
                     var resultCod = result.resultCod
                     if (resultCod === 0) {
                         // 成功
-                        alert("请前往登陆")
+                        alert("注册成功，请前往登陆")
                         window.location.href="/login"
                     } else if (resultCod === 1) {
                         // 失败
