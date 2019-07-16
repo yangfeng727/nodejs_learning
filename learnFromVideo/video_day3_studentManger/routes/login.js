@@ -2,15 +2,35 @@ var express = require('express')
 var fs = require('fs')
 var md5 = require('md5')
 var moment = require('moment') // 时间模块
+var expressSession = require('express-session')
 var router = express.Router() // express的路由方式
 
 var baseFilePath = './db.json'
+
+// 配置
+router.use(expressSession({
+    secret: 'teststring', // md5加密存储
+    resave: false, // 客户端并行请求是否覆盖:true-是,false-否
+    saveUninitialized: true // 初始化session存储
+}))
+
+// 设置拦截器
+router.use(function (req, res, next) {
+    // 用户访问的不是登录页 && 注册页 则验证身份
+    if (req.url !== '/login' && req.url !== '/reg') {
+        if (!req.session.isLogin) return res.redirect('/login')
+    }
+    // 其他则匹配下一步
+    next()
+})
+
 // 登陆
-router.get('/', function (req, res) {
+router.get('/login', function (req, res) {
     res.render('login.html')
 })
 
-router.post('/', function (req, res, next) {
+router.post('/login', function (req, res, next) {
+    console.log('访问登陆接口中。。。')
     // 异步方式
     fs.readFile(baseFilePath, 'utf8', function (err, data) {
         if (err) next(err)
@@ -23,6 +43,9 @@ router.post('/', function (req, res, next) {
         // 3.判断
         if (!stu) return res.status(200).json({resultCod: 1, msg: '用户不存在'})
         if (stu.pwd !== md5(postData.pwd)) return res.status(200).json({resultCod: 1, msg: '密码错误'}) // 密码是加密后的密码，使用md5
+
+        req.session.isLogin = true // 设置session，防翻墙
+        req.session.userInfo = postData // 存储用户信息
         return res.status(200).json({resultCod: 0, msg: '成功'}) // 响应状态码，响应数据
     })
     // // 同步方式
@@ -38,6 +61,16 @@ router.post('/', function (req, res, next) {
     // if (!stu) return res.status(200).json({resultCod: 1, msg: '用户不存在'})
     // if (stu.pwd !== md5(postData.pwd)) return res.status(200).json({resultCod: 1, msg: '密码错误'}) // 密码是加密后的密码，使用md5
     // return res.status(200).json({resultCod: 0, msg: '成功'}) // 响应状态码，响应数据
+})
+
+
+// 退出登陆
+router.get('/loginOut', function (req, res) {
+    // 1.清除session
+    req.session.isLogin = null
+    req.session.userInfo = null
+    // 2.跳转登陆
+    res.redirect('/login')
 })
 
 // 注册

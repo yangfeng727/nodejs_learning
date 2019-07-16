@@ -11,6 +11,13 @@
 </head>
 <body>
 <div class="wap-box">
+    <div class="if-wrap">
+        {{if userName}}
+        <p>{{userName}}<a href="/loginOut">退出</a></p>
+        {{else}}
+        <p><a href="/login">登陆</a><a href="/reg">注册</a></p>
+        {{/if}}
+    </div>
     <h1>学生列表(从文件中获取的数据)</h1>
     <!--<button class="common-btn" onclick="window.open('/add','_self')">发表留言</button>-->
     <table>

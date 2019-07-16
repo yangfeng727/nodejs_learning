@@ -20,3 +20,13 @@ ul,li{
     color:#ffffff;
     text-decoration: none;
 }
+
+.if-wrap p{
+    height:30px;
+    text-align: right;
+    padding:0 50px;
+    box-sizing: border-box;
+}
+.if-wrap p a{
+    margin-left:5px;
+}

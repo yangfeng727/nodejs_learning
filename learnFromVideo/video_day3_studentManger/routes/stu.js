@@ -67,7 +67,8 @@ router.get('/', function (req, res) {
     stuModel.find(function (err, data) {
         if (err) res.status(500).send('server Error.')
         res.render('index.html', {
-            studentList: data
+            studentList: data,
+            userName: req.session.userInfo.name
         })
     })
 })
