@@ -18,3 +18,7 @@ npm adduser --registry http://XXXXXX // 设置账号密码
 
 md5？
 序列化？
+
+
+es6新类型：
+Symbol
