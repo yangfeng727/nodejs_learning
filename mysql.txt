@@ -1,0 +1,85 @@
+mysql安装教程5.7zip 安装           Navicat for MySQL可视化界面操作
+。。。
+。。。
+安装分配的密码：)sh/o-NaV0dn
+
+修改的初始密码：123qwe
+
+5.3 启动服务
+net start mysql
+ 
+=============华丽的分割线============
+以上的步骤已经可以安装成功
+以下其他可能用到的命令
+ 
+5.4 停止服务
+net stop mysql
+ 
+5.5删除服务 
+mysqld --remove   // 危险操作，删除后需要再安装服务
+ 
+6.修改初始化密码
+mysql -uroot -p
+ 
+若找不到初始密码可以在my.ini中[mysqld] 添加
+skip-grant-tables
+ 
+
+使用初始密码登陆后(上面的初始密码：a#+GBHZjA7VS),执行下面指令
+set password for root@localhost=password('你的密码');
+
+
+// 查询
+Select 输出内容
+
+From  从哪一个表（标的名称）
+
+Where 给出的条件
+。。。。
+SELECT 
+
+table_name
+
+FROM
+
+`innodb_index_stats`
+
+WHERE
+
+stat_name = 'size';
+
+
+
+//更改
+
+Update  表（名称）
+
+Set 改成什么
+
+Where 改哪里的（行/列）
+
+。。。。。。。。。。
+UPDATE  innodb_table_stats
+
+SET  table_name = ' Hard work'
+
+WHERE
+
+n_rows = 19;
+
+
+
+// 增加
+Insert into 哪个表，
+
+VALUES 哪些内容
+。。。。。
+INSERT INTO sys_config (variable,value, set_time, set_by)
+
+VALUES ('yy','xx','2018-3-22','bb');
+
+
+// 删除
+DELETE FROM 表格名称
+
+ WHERE name='qq' AND country='dd';  什么内容
