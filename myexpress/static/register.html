@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
-    <link href="../public/css/common.css" rel="stylesheet">
-    <link href="../public/css/postCreate.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/postCreate.css" rel="stylesheet">
 </head>
 <body>
 <div class="form-wrap">
     <form action="" method="post" id="registerForm">
-        <h1>注册<a href="/login">返回登陆</a></h1>
+        <h1>注册<a href="/login.html">返回登陆</a></h1>
         <p>
             <label for="name"><span>用户名：</span><input class="text" name="name" id="name"/></label>
         </p>
@@ -20,7 +20,7 @@
     </form>
 </div>
 </body>
-<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="./js/jquery-3.5.1.min.js"></script>
 <script>
     $(function () {
         $('#registerForm').submit(function (e) {

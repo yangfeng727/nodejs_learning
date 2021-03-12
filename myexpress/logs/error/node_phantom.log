@@ -1,0 +1,11 @@
+[DESKTOP-R61J7I8]	[2021-03-12T18:41:34.516]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:41:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }

@@ -1,0 +1,53 @@
+.form-wrap h1{
+text-align: center;
+}
+.form-wrap h1 a{
+    font-size:16px;
+    font-weight: normal;
+}
+
+.form-wrap form {
+    text-align: center;
+    margin: 120px auto;
+    background: aliceblue;
+    /*text-align: center;*/
+    max-width: 420px;
+    padding: 10px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.form-wrap form p >label {
+    padding-left: 100px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+}
+
+.form-wrap form p >label span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    text-align: right;
+}
+
+.form-wrap form p {
+    padding: 20px 10px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.form-wrap form input.text {
+    width: 180px;
+    height: 30px;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+
+.form-wrap form textarea {
+    vertical-align: top;
+    height: 100px;
+    width: 180px;
+}

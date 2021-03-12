@@ -17,7 +17,8 @@ router.use(expressSession({
 // 设置拦截器
 router.use(function (req, res, next) {
     // 用户访问的不是登录页 && 注册页 则验证身份
-    if (req.url !== '/login' && req.url !== '/reg') {
+    if (req.url !== '/login' && req.url !== '/reg' && req.url !=='/favicon.ico') {
+        console.log('路由拦截器',req.url)
         if (!req.session.isLogin) return res.redirect('/login')
     }
     // 其他则匹配下一步
