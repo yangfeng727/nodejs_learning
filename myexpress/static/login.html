@@ -14,7 +14,7 @@
             <label for="name"><span>用户名：</span><input class="text" name="name" id="name"/></label>
         </p>
         <p>
-            <label for="pwd"><span>密码：</span><input class="text" name="pwd" id="pwd"/></label>
+            <label for="pwd"><span>密码：</span><input class="text" name="pwd" id="pwd" type="password"/></label>
         </p>
         <button class="common-btn" type="submit">提交</button>
     </form>
@@ -30,14 +30,14 @@
             var formData = $(this).serialize()
             $.ajax({
                 type: "POST",
-                url: "/login",
+                url: "/auth/login",
                 data: formData,
                 dataType: "json",
                 success: function (result) {
                     var resultCod = result.resultCod
                     if(result.success){
                         // 成功
-                        window.location.href="/stu"
+                        window.location.href="/list.html"
                     }else{
                         alert(result.msg)
                     }

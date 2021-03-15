@@ -9,3 +9,542 @@
     at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
     at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
     at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:40:15.941]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:41:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:43:46.159]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:44:52.513]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:44:52.521]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:44:52.523]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:44:52.732]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:45:20.737]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:46:37.864]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T11:48:19.961]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:07:42.207]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:13:09.476]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:13:45.729]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:14:17.624]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:40:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:38:05.093]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:40:19.173]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:41:30.104]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:43:57.360]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:44:00.991]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:45:17.307]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:45:45.538]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:45:59.107]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:46:14.714]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T14:51:36.959]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15
+    at next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:260:14)
+    at Function.handle (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:174:3)
+    at router (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:47:12) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:13:06.085]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:13:16.471]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:16:45.876]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:18:07.633]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:22:39.512]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:23:05.075]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:23:39.781]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:24:17.114]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:28:11.001]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:28:47.490]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:29:21.224]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:34:31.256]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:39:24.131]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:39:38.361]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:40:28.423]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:41:24.134]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:44:35.719]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T15:45:23.935]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:02:03.740]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:05:16.452]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:06:44.620]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:11:27.432]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:18:01.243]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:18:10.996]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:18:22.754]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }
+[DESKTOP-R61J7I8]	[2021-03-15T16:18:27.366]	[ERROR]	error	{ NotFoundError: Not Found
+    at F:\my work\my express\nodejs_learning\myexpress\app.js:42:8
+    at Layer.handle [as handle_request] (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:317:13)
+    at F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:284:7
+    at Function.process_params (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:335:12)
+    at Immediate.next (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (F:\my work\my express\nodejs_learning\myexpress\node_modules\_express@4.16.4@express\lib\router\index.js:635:15)
+    at runCallback (timers.js:706:11)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5) message: 'Not Found' }

@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 // 路由
 var indexRouter = require('./routes/index');
 var loginApi = require('./routes/loginApi');
+var studentApi = require('./routes/studentApi');
 
 // 自定义方法
 var {httplog} = require('./common/httplog');
@@ -33,11 +34,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'static')));
 
 app.use('/', indexRouter);
-app.use('/', loginApi);
+app.use('/auth', loginApi);
+app.use('/student', studentApi);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  console.log(404)
   next(createError(404));
 });
 
@@ -48,8 +49,13 @@ app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500).json(response.SERVERERROR());
+    // render the error page
+    if(req.path.endsWith('.html')){
+        res.status(err.status || 500).json(response.SERVERERROR())
+    }else{
+        res.status(err.status || 500);
+    }
+
   appLog(err)
   res.render('error');
 });

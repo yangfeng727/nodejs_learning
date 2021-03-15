@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/list.css" rel="stylesheet">
+</head>
+<body>
+<div class="box-wrap">
+    <table class="myTbale" id="myTbale">
+        <thead>
+        <th>姓名</th><th>密码</th><th>年龄</th><th>年级</th><th>操作</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script>
+    $(function () {
+        // 操作
+        $('#myTbale').delegate('.operate a','click',function (e) {
+            var typeEvent = $(this).attr('data-type')
+            var id = $(this).attr('data-id')
+            if(!id) return alert('参数错误')
+            switch (+typeEvent){
+                case 1: // 删除
+                    $.ajax({
+                        type: "post",
+                        url: "/student/delStudent",
+                        data:{
+                            id:id
+                        },
+                        dataType: "json",
+                        success: function (result) {
+                            if(result.success){
+                                window.location.reload()
+                            }else{
+                                alert(result.msg)
+                                if(+result.resultCode === 8081) return window.location.href="/login.html"
+                            }
+                        }
+                    });
+                    break
+                case 2: // 修改
+                    break
+
+            }
+        })
+
+        // 查询列表
+        $.ajax({
+            type: "GET",
+            url: "/student/getList",
+            dataType: "json",
+            success: function (result) {
+                if(result.success){
+                    var data = result.data
+                    var str= ''
+                    data.forEach(function (item) {
+                        str+=`<tr><td>${item.name || ''}</td><td>${item.pwd || ''}</td><td>${item.age || ''}</td><td>${item.level || ''}</td><td class="operate">
+<a data-id="${item._id}" data-type="1">删除</a>
+</td></tr>`
+                    })
+                    $('#myTbale tbody').html(str)
+                }else{
+                    alert(result.msg)
+                    if(+result.resultCode === 8081) return window.location.href="/login.html"
+                }
+            }
+        });
+
+    })
+</script>
+</html>

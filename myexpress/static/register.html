@@ -14,7 +14,7 @@
             <label for="name"><span>用户名：</span><input class="text" name="name" id="name"/></label>
         </p>
         <p>
-            <label for="pwd"><span>密码：</span><input class="text" name="pwd" id="pwd"/></label>
+            <label for="pwd"><span>密码：</span><input class="text" name="pwd" id="pwd" type="password"/></label>
         </p>
         <button class="common-btn" type="submit">提交</button>
     </form>
@@ -30,22 +30,18 @@
             var formData = $(this).serialize()
             $.ajax({
                 type: "POST",
-                url: "/reg",
+                url: "/auth/reg",
                 data: formData,
                 dataType: "json",
                 success: function (result) {
-                    var resultCod = result.resultCod
-                    if (resultCod === 0) {
-                        // 成功
+
+                    if(result.success){
                         alert("注册成功，请前往登陆")
-                        window.location.href="/login"
-                    } else if (resultCod === 1) {
-                        // 失败
+                        window.location.href="/login.html"
+                    }else{
                         alert(result.msg)
-                    } else if (resultCod === 500) {
-                        console.log('服务器异常')
-                        alert(result)
                     }
+
                 }
             });
         })

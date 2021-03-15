@@ -1,0 +1,27 @@
+.box-wrap{
+    width: 80%;
+    min-width: 800px;
+    margin: 20px auto;
+}
+
+.box-wrap table{
+    width: 100%;
+    table-layout: fixed;
+
+    border-collapse: collapse;
+}
+.box-wrap th{
+    font-weight: bold;
+}
+.box-wrap td,.box-wrap th{
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.operate{
+    cursor: pointer;
+    text-decoration: none;
+}
+.operate:hover{
+    color: deepskyblue;
+}
