@@ -73,6 +73,7 @@ nodejs 事件驱动：events,实例化events.EventEmitter().on 监听事件，em
 
 
 
+```
 nodejs封装express路由
 MonggoDb 数据库（NoSQL的一种类型）
 
@@ -94,3 +95,4 @@ session后端概念，第一次调用的时候生成一个session并{key:value}�
 
 session负载均衡,将session保存到monGodb数据库里面实现session在服务器中的共享
 使用的模块 express-session 和 connect-mongo
+```
