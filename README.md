@@ -61,3 +61,36 @@ var writerStream = fs.createWriteStream('test2.txt');
 readerStream.pipe(writerStream);
 
 ```
+
+
+
+nodejs视频地址：https://www.bilibili.com/video/BV1g4411M73R?p=30&spm_id_from=pageDriver
+
+知识点：
+url 模块之url.parse() // 解析地址参数 url.parse(path,true) 可将参数格式化为对象
+注意返回资源时不同文件的content-type的设置  如js:【content-type: text/javascript; charset=UTF-8 】    ico文件:【content-type: image/x-icon】 等等
+nodejs 事件驱动：events,实例化events.EventEmitter().on 监听事件，emit广播事件
+
+
+
+nodejs封装express路由
+MonggoDb 数据库（NoSQL的一种类型）
+
+1.启动数据库服务  monggoD  --dbpath 目录
+2. 连接远程数据库 monggo 127.0.0.1:10002  
+展示数据库列表 show dbs
+展示集合列表 先use 数据库 ->  show clloctions
+展示表的所有数据 db.表名.find()
+
+
+表数据的索引？复合索引，唯一索引
+
+写个使用express的+ejs的例子（引入公共模板，公共模板数据的渲染？？）
+cookie session的使用场景？登录
+
+express-session:(rolling:true)重要参数配置，表示设置过期时间时，用户最后一次访问后过期时间内不操作才过期，操作时刷新过期时间
+session后端概念，第一次调用的时候生成一个session并{key:value}的集合并返回key到客户端并写入cookie，后续请求的时候取值可用于判断登录状态
+
+
+session负载均衡,将session保存到monGodb数据库里面实现session在服务器中的共享
+使用的模块 express-session 和 connect-mongo
