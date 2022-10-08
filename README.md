@@ -96,3 +96,6 @@ session后端概念，第一次调用的时候生成一个session并{key:value}�
 session负载均衡,将session保存到monGodb数据库里面实现session在服务器中的共享
 使用的模块 express-session 和 connect-mongo
 ```
+## [Node.js 真的有高并发优势么？](https://www.zhihu.com/question/59739941)
+## [解秘 Node.js 单线程实现高并发请求原理，以及串联同步执行并发请求的方案](https://blog.csdn.net/slw20010213/article/details/122261654)
+## [ws模块指南+Vue在线聊天室](https://segmentfault.com/a/1190000017053032?sort=votes)
